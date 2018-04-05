@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Torturing Text - An introduction
+title: Motivated Text
 author:     Paul Warren
 thumbnail:  heart
 ---
