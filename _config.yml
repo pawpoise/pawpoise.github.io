@@ -5,7 +5,7 @@ description: "A dark blog theme for Jekyll."
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "Adventures in Text animation on iOS"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "MT.png"
 google_analytics: ""
 disqus_account: 
 github_repository: https://github.com/pawpoise/github.io
