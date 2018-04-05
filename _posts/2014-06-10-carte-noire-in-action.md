@@ -24,26 +24,26 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 Code blocks use the [peppermint][2] theme.
 
 ```swift
-    override func draw(_ rect: CGRect) {
-        print ("draw called")
-        
-        guard let text = text else { return }
-        
-        glyphLayer.isGeometryFlipped = true
-        glyphLayer.frame = CGRect(origin: CGPoint(x: 0, y: 0), size: layer.frame.size)
-        glyphLayer.fillColor = UIColor(patternImage: #imageLiteral(resourceName: "smoke.png")).cgColor
-        glyphLayer.font = font
-        glyphLayer.char = text
+override func draw(_ rect: CGRect) {
+    print ("draw called")
+    
+    guard let text = text else { return }
+    
+    glyphLayer.isGeometryFlipped = true
+    glyphLayer.frame = CGRect(origin: CGPoint(x: 0, y: 0), size: layer.frame.size)
+    glyphLayer.fillColor = UIColor(patternImage: #imageLiteral(resourceName: "smoke.png")).cgColor
+    glyphLayer.font = font
+    glyphLayer.char = text
 
-        layer.addSublayer(glyphLayer)
-        
-        let newRect = glyphLayer.glyphRect
-        let adj = layer.frame.size.height-newRect.size.height
-        glyphOuterLayer.frame = CGRect(origin: CGPoint(x: newRect.origin.x, y: adj-newRect.origin.y), size: newRect.size)
-        glyphOuterLayer.borderColor = UIColor.red.cgColor
-        glyphOuterLayer.borderWidth = 0.5
-        layer.addSublayer(glyphOuterLayer)
-    }
+    layer.addSublayer(glyphLayer)
+    
+    let newRect = glyphLayer.glyphRect
+    let adj = layer.frame.size.height-newRect.size.height
+    glyphOuterLayer.frame = CGRect(origin: CGPoint(x: newRect.origin.x, y: adj-newRect.origin.y), size: newRect.size)
+    glyphOuterLayer.borderColor = UIColor.red.cgColor
+    glyphOuterLayer.borderWidth = 0.5
+    layer.addSublayer(glyphOuterLayer)
+}
 ```
 
 ```html
