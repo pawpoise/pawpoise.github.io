@@ -23,7 +23,7 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Code blocks use the [peppermint][2] theme.
 
-{% highlight swift %}
+{% highlight Swift %}
 override func draw(_ rect: CGRect) {
 print ("draw called")
 
