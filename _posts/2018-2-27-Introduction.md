@@ -2,14 +2,14 @@
 layout: post
 title: Motivated Text
 author:     Paul Warren
-thumbnail:  heart
+thumbnail:  mobile
 ---
 
-### What did Text ever do to you?
+# What did Text ever do to you?
 
 The aim of this blog is document my experiments with animating text presentation. This is intended to go well beyond the usual ideas of simply having text fade in or fade out or maybe flying in from the left or the right or even zooming or shrinking to a size.
 
-# smaller header
+## smaller header
 
      func createGlyphLayers() {
         assert(Thread.isMainThread)
