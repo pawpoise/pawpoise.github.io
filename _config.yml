@@ -6,10 +6,10 @@ baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "Adventures in Text animation on iOS"
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
+google_analytics: ""
+disqus_account: 
+github_repository: https://github.com/pawpoise/github.io
+addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
@@ -18,10 +18,7 @@ github_username:  pawpoise
 instagram_username: 
 reddit_username: 
 linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
 stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
-xing_link:
-facebook_link:
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
