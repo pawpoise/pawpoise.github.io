@@ -23,7 +23,7 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Code blocks use the [peppermint][2] theme.
 
-{% highlight Swift %}
+```swift
 override func draw(_ rect: CGRect) {
 print ("draw called")
 
@@ -45,7 +45,7 @@ glyphOuterLayer.borderWidth = 0.5
 layer.addSublayer(glyphOuterLayer)
 }
 
-{% endhighlight %}
+```
 
 ```html
 <!DOCTYPE html>
