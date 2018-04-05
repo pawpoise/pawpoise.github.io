@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Torturing Text - An introduction
+author:     Paul Warren
+thumbnail:  heart
 ---
 
 ### What did Text ever do to you?
