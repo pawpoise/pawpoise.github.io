@@ -32,3 +32,5 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+theme: jekyll-theme-slate
